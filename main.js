@@ -14,14 +14,14 @@ const dummyTunkNames = /*from chatGPT*/[ "Boladão", "Rabugento", "Trovão", "Ba
 const maxSpeed=2, arenaPadding=10, jetW=50, jetH=30,
       score=100, // vida de cada jato
       dummyJets=10, // quantidade de jatos aleatórios
-      keysJet=true, // modifique para ter um jato controlado pelo teclado
+      keysJet=false, // modifique para ter um jato controlado pelo teclado
       // nome dos jatos controlados por Prolog (obs.: tem que adaptar o servidor.pl ao mexer aqui)
       // a quantidade é referente a quantidade de nomes, na falta de criatividade, o nome pode repetir... rs
       // exemplos de dois:
       //prologJets=["Ligerin", "ApagaFogo"], // se quiser colocar dois jatos proloog, faça assim
       //prologJets=["Ligerin"], // escolha aqui o nome de seu jato controlado por prolog
-      prologJets=[], //se não quiser nenhum jato prolog, faça assim
-      showSensors=false, //modifique para mostrar os sensores dos jatos PROLOG e KEYS
+      prologJets=["fozo"], //se não quiser nenhum jato prolog, faça assim
+      showSensors=true, //modifique para mostrar os sensores dos jatos PROLOG e KEYS
       showSensorsOfDummyJets=false; //modifique para mostrar os sensores dos jatos DUMMY
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

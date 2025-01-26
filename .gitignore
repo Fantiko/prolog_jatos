@@ -1,0 +1,39 @@
+# Ignore compiled files
+*.o
+*.so
+*.a
+*.dll
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+
+# Ignore backup files
+*.bak
+*.old
+
+# Ignore Prolog specific files
+*.qlf
+*.pl~
+
+# Ignore directories
+bin/
+obj/
+build/
+dist/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+# Ignore Node.js specific files
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore package files
+package-lock.json
+yarn.lock
